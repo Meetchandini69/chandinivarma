@@ -40,7 +40,6 @@ h5 {
 }
 h6 {
   font-size: 0.875rem;
-
 }
 
 /*--------------------------------------------------------------
@@ -947,10 +946,6 @@ h6 {
   background-color: #141414;
 }
 
-.section-title {
-  padding-bottom: 40px;
-}
-
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
@@ -985,9 +980,6 @@ h6 {
 
 .inner-page .inner-page-content h2 {
   color: #fee7f1;
-}
-.inner-page .inner-page-content p {
-  color: #ffffff;
 }
 .listing-wrapper .listing-card {
   background-color: rgba(255,255,255,0.077);
