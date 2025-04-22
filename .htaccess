@@ -50,15 +50,17 @@ FileETag None
     Protocols h2 http/1.1
 </IfModule>
 <IfModule mod_rewrite.c>
-    RewriteEngine On
-
+    # RewriteEngine On
     # Ensure the request is HTTPS (if not, redirect to HTTPS)
-    RewriteCond %{HTTPS} off
-    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    # RewriteCond %{HTTPS} off
+    # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^chandinivarma.com [NC]
+    RewriteRule ^(.*)$ https://www.chandinivarma.com/$1 [L,R=301]
 
     # Redirect non-www to www
-    RewriteCond %{HTTP_HOST} ^chandinivarma\.com [NC]
-    RewriteRule ^ https://www.chandinivarma.com%{REQUEST_URI} [L,R=301]
+    # RewriteCond %{HTTP_HOST} ^chandinivarma\.com [NC]
+    # RewriteRule ^ https://www.chandinivarma.com%{REQUEST_URI} [L,R=301]
     # RewriteCond %{HTTP_HOST} !^www.chandinivarma.com$ [NC]
     # RewriteRule ^(.*)$ https://www.chandinivarma.com/$1 [L,R=301]
 </IfModule>
