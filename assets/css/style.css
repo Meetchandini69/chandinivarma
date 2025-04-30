@@ -961,7 +961,7 @@ h6 {
 }
 
 .section-title h2 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
   padding: 0;
   line-height: 1.4;
@@ -984,7 +984,7 @@ h6 {
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
   color: #EB0A72;
@@ -997,7 +997,10 @@ h6 {
   padding: 15px;
   border-radius: 10px;
 }
-.inner-page .inner-page-content h2 {
+.inner-page .inner-page-content h2,
+.inner-page .inner-page-content h3,
+.inner-page .inner-page-content h4,
+.inner-page .inner-page-content h5 {
   color: #fee7f1;
 }
 .listing-wrapper .listing-card {
