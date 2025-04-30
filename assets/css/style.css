@@ -1009,7 +1009,12 @@ h6 {
 .inner-page .inner-page-content .bg-light h5 {
   color: #07BBD4 !important;
 }
-
+.bg-black {
+  background-color: #000000;
+}
+.bg-black .partner-wrapper {
+  padding: 140px 0px;
+}
 .listing-wrapper .listing-card {
   background-color: rgba(255,255,255,0.077);
   border-radius: 10px;
@@ -2336,6 +2341,9 @@ aside .section-title h2:after {
   }
   .listing-wrapper .listing-card .img-blk {
     max-width: 100%;
+  } 
+  .bg-black .partner-wrapper {
+    padding: 50px 0px;
   }
 }
 @media screen and (max-width: 991.98px) {
