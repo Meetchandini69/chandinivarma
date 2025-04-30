@@ -1007,7 +1007,7 @@ h6 {
 .inner-page .inner-page-content .bg-light h3, 
 .inner-page .inner-page-content .bg-light h4,
 .inner-page .inner-page-content .bg-light h5 {
-  color: #07BBD4;
+  color: #07BBD4 !important;
 }
 
 .listing-wrapper .listing-card {
