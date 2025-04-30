@@ -1003,6 +1003,10 @@ h6 {
 .inner-page .inner-page-content h5 {
   color: #fee7f1;
 }
+.bg-light h2, .bg-light h3, .bg-light h4, .bg-light h5 {
+  color: #07BBD4;
+}
+
 .listing-wrapper .listing-card {
   background-color: rgba(255,255,255,0.077);
   border-radius: 10px;
