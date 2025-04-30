@@ -1003,7 +1003,10 @@ h6 {
 .inner-page .inner-page-content h5 {
   color: #fee7f1;
 }
-.bg-light h2, .bg-light h3, .bg-light h4, .bg-light h5 {
+.inner-page .inner-page-content .bg-light h2, 
+.inner-page .inner-page-content .bg-light h3, 
+.inner-page .inner-page-content .bg-light h4,
+.inner-page .inner-page-content .bg-light h5 {
   color: #07BBD4;
 }
 
