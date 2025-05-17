@@ -125,7 +125,11 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
-
+.event-item img {
+  width: 500px;
+  max-height: 320px;
+  object-fit: cover;
+}
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
