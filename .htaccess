@@ -38,9 +38,9 @@ FileETag None
     # Ensure the request is HTTPS (if not, redirect to HTTPS)
     # RewriteCond %{HTTPS} off
     # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-    RewriteEngine On
-    RewriteCond %{HTTP_HOST} ^chandinivarma.com [NC]
-    RewriteRule ^(.*)$ https://www.chandinivarma.com/$1 [L,R=301]
+    # RewriteEngine On
+    # RewriteCond %{HTTP_HOST} ^chandinivarma.com [NC]
+    # RewriteRule ^(.*)$ https://www.chandinivarma.com/$1 [L,R=301]
 
     # Redirect non-www to www
     # RewriteCond %{HTTP_HOST} ^chandinivarma\.com [NC]
@@ -48,3 +48,11 @@ FileETag None
     # RewriteCond %{HTTP_HOST} !^www.chandinivarma.com$ [NC]
     # RewriteRule ^(.*)$ https://www.chandinivarma.com/$1 [L,R=301]
 </IfModule>
+
+RewriteEngine On
+
+# Check if the request is not using www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+
+# Redirect to www version (preserving URI and query string)
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
