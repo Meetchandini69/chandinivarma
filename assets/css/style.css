@@ -130,6 +130,29 @@ h6 {
   max-height: 320px;
   object-fit: cover;
 }
+.banner-sec p {
+  margin-top: 23px;
+  color: #ffffff;
+}
+.partner-link-blk {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.partner-link-blk a {
+  border-bottom: 1px solid #b39c5b;
+  border-top: 1px solid #b39c5b;
+  color: rgba(0, 0, 0, 0.85);
+  text-shadow: 0px 1px 1px #f8df82;
+  box-shadow: 0 0 2px #000;
+  background: rgb(130,106,63);
+  padding: 10px 25px;
+  border-radius: 25px;
+  background: -moz-linear-gradient(top, rgba(130,106,63,1) 0%, rgba(230,207,120,1) 50%, rgba(130,106,63,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(130,106,63,1) 0%,rgba(230,207,120,1) 50%,rgba(130,106,63,1) 100%);
+  background: linear-gradient(to bottom, rgba(130,106,63,1) 0%,rgba(230,207,120,1) 50%,rgba(130,106,63,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#826a3f', endColorstr='#826a3f',GradientType=0 );
+}
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -988,9 +1011,9 @@ h6 {
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 20px;
+  /* font-size: 20px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif; */
   color: #EB0A72;
 }
 
@@ -1005,7 +1028,7 @@ h6 {
 .inner-page .inner-page-content h3,
 .inner-page .inner-page-content h4,
 .inner-page .inner-page-content h5 {
-  color: #fee7f1;
+  color: #07BBD4;
 }
 .inner-page .inner-page-content .bg-light h2, 
 .inner-page .inner-page-content .bg-light h3, 
@@ -1271,7 +1294,6 @@ h6 {
   font-weight: 600;
   padding: 0;
   margin: 0px 0 20px;
-  color: rgba(255, 255, 255, 0.8);
 }
 
 .why-us .box p {
@@ -2283,7 +2305,11 @@ aside .section-title h2:after {
 }
 
 .inner-page p {
+  color: #ffffff;
   margin: 0px 0px 32px;
+}
+.bg-light p {
+  color: #232323;;
 }
 
 .inner-section-style {
