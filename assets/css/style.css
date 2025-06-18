@@ -153,6 +153,9 @@ h6 {
   background: linear-gradient(to bottom, rgba(130,106,63,1) 0%,rgba(230,207,120,1) 50%,rgba(130,106,63,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#826a3f', endColorstr='#826a3f',GradientType=0 );
 }
+.inner-page .inner-section-style .section-title {
+  margin-bottom: 32px;
+}
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -487,7 +490,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/escorts/coimbatore-escorts.webp") top center;
+  background: url("../img/escorts/independent-escorts-in-chennai.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -2317,10 +2320,6 @@ aside .section-title h2:after {
   border: 1px solid #222222;
   padding:23px;  
   margin-bottom: 41px;
-}
-
-.inner-page .section-title p {
-  margin:0px;
 }
 
 .inner-page-content h2 {
